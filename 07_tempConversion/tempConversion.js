@@ -1,5 +1,4 @@
 const convertToCelsius = function(inputTemp) {
-  
   let fConversion = (inputTemp -32) * 5/9;
   fConversion = Math.round(fConversion *10)/10;
   return fConversion;
