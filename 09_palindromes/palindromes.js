@@ -6,7 +6,6 @@ const palindromes = function () {
     for(let i = 0; i < words.length; i++){
         if(words[i] == words[j]){
             j--
-            continue
         }else{
             return false
         }
